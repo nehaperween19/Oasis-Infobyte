@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+    background-color: black;
+
+}
+
+.container{
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+}
+
+.header{
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+}
+.header > .Title{
+    margin-bottom: 1rem;
+    margin-left: 400px;
+}
+.tribute{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+max-width: 78rem;
+margin: 0px auto;
+background: whitesmoke;
+color: black;
+align-items: center;
+padding: 0px 0px 0px 1rem;
+}
+
+.Tribute blockquote{
+    text-align: center;
+    font-size: 3rem;
+    margin: 200px;
+}
+
+.Tribute img{
+    max-width: 100%;
+    margin-left: 400px;
+}
+.bio{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+
+.bio >h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+ .bio > p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+ }
+
+ .bio > hr{
+    margin-top: 2rem;
+ }
+.ach{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+
+.project{
+    
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+.ach >h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;}
+.project >h2{
+        margin-bottom: 1rem;
+        font-size: 3rem;
+        line-height: 1.2;}
+        
+ .ach > hr{
+    margin-top: 2rem;
+ }
+ 
+ .project > hr{
+    margin-top: 2rem;
+ }
